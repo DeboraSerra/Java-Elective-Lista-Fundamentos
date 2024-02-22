@@ -37,11 +37,9 @@ Nosso objetivo é explorar e praticar a lógica de programação.
 
 Neste exercício, verificamos se você é capaz de:
 
-Utilizar conceitos de abstração para criar classes em Java.
+Utilizar tipos primitivos e não primitivos em Java.
 
-Implementar getters e setters em classes de programação para acessar e modificar atributos.
-
-Utilizar os tipos primitivos e não primitivos, estrutura de repetição em conjuntos e herança para criar classes derivadas de outras classes.
+Criar atributos e métodos.
 
 </details>
 
@@ -125,25 +123,6 @@ Faça `commits` das alterações que você fizer no código regularmente, pois a
     - `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_;
     - `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_;
     - `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_.
-
-</details>
-
-<details>
-<summary><strong>🎛 Checkstyle</strong></summary>
-
-Para garantir a qualidade do código, vamos utilizar neste exercício o `Checkstyle`. Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção! Para poder rodar o `Checkstyle` certifique-se de ter executado o comando `mvn install` dentro do repositório.
-
-Para rodá-los localmente no repositório, execute os comandos abaixo:
-
-```bash
-mvn checkstyle:check
-```
-
-Se a análise do `Checkstyle` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-Você pode também instalar o plugin do `Checkstyle` na sua `IDE`. Para isso, volte na primeira seção do conteúdo.
-
-⚠️ **PULL REQUESTS COM ISSUES NO `Checkstyle` NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
 
 </details>
 
