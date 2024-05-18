@@ -15,4 +15,8 @@ public class Residente {
         this.nome = nome;
         this.peso = peso;
     }
+
+    public double calculaImc() {
+        return this.peso / (this.altura * this.altura);
+    }
 }
