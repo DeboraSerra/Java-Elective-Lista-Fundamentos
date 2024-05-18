@@ -10,15 +10,15 @@ public class SmartHouse {
         this.isLampadaLigada = true;
     }
 
-    void ligarLampada() {
+    public void ligarLampada() {
         this.isLampadaLigada = true;
     }
 
-    void desligarLampada() {
+    public void desligarLampada() {
         this.isLampadaLigada = false;
     }
 
-    boolean isLampadaLigada() {
+    public boolean isLampadaLigada() {
         return  this.isLampadaLigada;
     }
 }
